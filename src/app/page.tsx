@@ -1,113 +1,55 @@
-import Image from "next/image";
+import Image from 'next/image';
+import License from '@/components/pages/page/Lisence';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <div className="container mx-auto max-w-[1038px] py-8">
+      <h1 className="text-center text-3xl font-bold text-[#4A1414] mb-8">Phần mềm WifiSocks</h1>
+      <div className='space-y-8'>
+        <section>
+          <h2 className="text-2xl font-semibold text-[#333] mb-4">Công nghệ độc quyền</h2>
+          <p className="text-base text-[#555] leading-relaxed">
+            WifiSocks biến chiếc router wifi thành một nơi cấp phát proxy mạnh mẽ, mang lại khả năng ẩn danh tuyệt đối cho các thiết bị sử dụng mạng. Không cần cài đặt thêm bất kỳ phần mềm proxy nào trên điện thoại, máy tính hoặc máy ảo (LDPlayer, NoxPlayer, VMWare...). WifiSocks trực tiếp cấp phát proxy cho từng thiết bị ngay trên router, đơn giản và tiện lợi. Với công nghệ độc quyền. Hỗ trợ đa luồng, không bị rò rỉ DNS và WebRTC, IP gốc, WifiSocks đảm bảo kết nối ổn định và bảo mật cao, cho phép bạn truy cập Internet một cách an toàn và riêng tư. Với tính năng cập nhật tự động, WifiSocks luôn đảm bảo bạn được trải nghiệm những tính năng mới nhất, công nghệ mới nhất và bảo mật nhất.
+          </p>
+          <Image
+            src="https://s3-alpha-sig.figma.com/img/98f0/052d/cd44b3b07333fe2f4e35ba6f698a2a86?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=khQmvcGAtkC~mslVKBgYefMpU0IMs28mIZ~j1RtPGtZLh-mcEpDYewr5Cd-sC8yqFgTfGSAV2g-uMiD80nyfLOvTqJ7NP3MHebXwwLo1MDH~~oHfNMsSTzAsTk2MGxFEJ-icWcY~AnGmkFjL7GHv-z11DPkxc-uMMQaIV6GcAIivsjBzzLYfjmDQ6nIsqqENu4HaQgqDFDfNMuJ2GXz-VV2bJL04S1wCkUGzC0-YzQgLakRxt91FbrPtx1t0GDkxVAgM0Qr3G1LGnZKsGVroYqddomD9FJS8~-p7~s6y711YqjmdURhqAJOM9RtkqS3JexiAY7MBjD1e~TrbRgSAJw__"
+            alt="WiFi Socks Image"
+            width={1038}
+            height={366}
+            className="object-cover rounded-lg shadow-lg"
+          />
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-semibold text-[#333] mb-4">Hiệu năng tối ưu ẩn danh tuyệt đối</h2>
+          <p className="text-base text-[#555] leading-relaxed">
+            Chỉ thiết bị nào được cấp phép mới được phép truy cập mạng trực tiếp không thông qua proxy. Điều này đảm bảo thiết bị không thể lộ IP gốc ngay cả khi chưa gán proxy. Hiệu năng được tối ưu tuyệt đối, không làm ảnh hưởng đến tốc độ mạng. Hỗ trợ đổi địa chỉ Mac của router dễ dàng chỉ bằng 1 cú click chuột.
+          </p>
+          <Image
+            src="https://s3-alpha-sig.figma.com/img/baf7/3c93/7c4caf09e150acf0d818af45d1fb530c?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FL0puyAhZ69FZRtiBNmHQsCOE5WklCt3Hs66Vun8qgZayhOkCon7rlFwqu-MLu9pLmA-~WKiYwFApZijbekoPdCfXpdjq-kWAl~hBnHSsyfpsMB0gTNh53D4BsJVbROKqhYlNCDx8sf4C37wk-ruJKvf5Rg1T9KDdXkFIF9gSaeMCAIhZfzmEL0VkKhERW47zqxXJsJUbe9aM~o7H-Z~XdZMDi8v-j6NsgTUeZabCxJak6gemZ3rDQ4DyGokWRq9LzjSWXqfxn3Tc3dyWu4076v4LPS6yp-7V~uYO2ysDMswR5Ys5y91aPUNRa0dIvKIR7BhGr9Spv0zAoyBrbAAFA__"
+            alt="WiFi Socks Image"
+            width={1038}
+            height={455}
+            className="object-cover rounded-lg shadow-lg"
+          />
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-semibold text-[#333] mb-4">Cài đặt routing theo domain và ip</h2>
+          <p className="text-base text-[#555] leading-relaxed">
+            Dễ dàng cài đặt để chặn tên miền, ip hoặc chỉ định tên miền và ip sẽ không sử dụng proxy. Điều này giúp giảm tải cho proxy và tiết kiệm băng thông mạng cho proxy.
+          </p>
+          <Image
+            src="https://s3-alpha-sig.figma.com/img/9261/f930/3399348152eaebdb795fecd87c03cb1f?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a0Y8CjZY5ZrGw5fFLZVkoGfaSL9XrZQg1bm9KGqSInfYJL8p5-eTdyfp7OHmNM6OSGSmW2mN4Wirm7vxDA9oKmZx8rsIBrBY9GOBF5~3-nOv4yVmvX-c3sQDbPYo~dBAUX9-mtgzMW8SWTnbPPgADh-qvKcfJUVAX0LON0jLUSIBOnoDWy-FZBnYBfsPPF8UZ3TVvm4MkBQpTm5-6-IW3CuFtEFvrPbVlA9JUpJWNJx6lFO1iAYkqf2gHmQ0uBqdTYE99J~PHnQHGOHfrWvIBaXqdzw4fOiyCGyVbvaxA44u8Vq2DfKs4jX5ijjHNw4aiAlzItMhNMyS622XOqnKAA__"
+            alt="WiFi Socks Image"
+            width={1038}
+            height={473}
+            className="object-cover rounded-lg shadow-lg"
+          />
+        </section>
       </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <License />
+    </div>
   );
 }
