@@ -1,42 +1,361 @@
-import React from 'react';
-
-interface Product {
-  name: string;
-  price: string;
-  details: string;
-}
-
-const products: Product[] = [
-  {
-    name: 'Gói dùng thử 2 thiết bị',
-    price: '1,000,000 VNĐ',
-    details: 'Chi tiết dịch vụ của sản phẩm 1',
-  },
-  {
-    name: 'Gói tối đa 5 thiết bị',
-    price: '2,000,000 VNĐ',
-    details: 'Chi tiết dịch vụ của sản phẩm 2',
-  },
-  {
-    name: 'Gói tối đa 50 thiết bị',
-    price: '3,000,000 VNĐ',
-    details: 'Chi tiết dịch vụ của sản phẩm 3',
-  },
-];
+import React from "react";
 
 export default function License() {
   return (
-    <div className="py-8">
-      <h2 className="text-2xl font-semibold text-[#333] mb-6 text-center">Bảng giá license phần mềm WifiSocks</h2>
-      <div className="grid gap-8 md:grid-cols-3">
-        {products.map((product, index) => (
-          <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
-            <p className="text-lg font-bold mb-4">{product.price}</p>
-            <p className="text-base text-[#555]">{product.details}</p>
+    <section className="py-20 dark:bg-black dark:text-gray-100 m:py-12 lg:py-24">
+      <div className="container px-4 mx-auto ">
+        <div className="max-w-2xl mx-auto mb-16 text-center">
+          <span className="font-bold tracking-wider uppercase dark:text-violet-400">
+            Bảng giá
+          </span>
+          <h2 className="text-4xl font-bold lg:text-5xl">Bảng giá WifiSocks</h2>
+        </div>
+        <div className="flex flex-wrap items-stretch max-w-5xl mx-auto">
+          
+          <div className="w-full p-4 mb-8  sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0">
+            <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px] dark:bg-gray-800">
+              <div className="space-y-2">
+                <h4 className="text-5xl font-bold mb-6">5 thiết bị</h4>
+                <span className="text-2xl font-bold ">
+                  1.500.00đ
+                  <span className="ml-1 text-sm tracking-wid dark:text-violet-500">
+                    6 tháng
+                  </span>
+                </span>
+              </div>
+              <p className="mt-3 leading-relaxed text-lg font-bold dark:text-gray-400">
+                Tính năng
+              </p>
+              <ul className="flex-1 mb-6 dark:text-gray-400 text-sm">
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Số thiết bị được gán proxy: 5</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Hỗ trợ kỹ thuật: có</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Hỗ trợ cài đặt từ xa: có</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Hỗ trợ cập nhật tính năng mới: có</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Giao thức hỗ trợ: TCP, UDP</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Công nghệ ẩn danh: DNS, WebRTC, Socks</span>
+                </li>
+              </ul>
+              <button
+                type="button"
+                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded   dark:bg-violet-400 dark:text-gray-900"
+              >
+                Mua ngay
+              </button>
+            </div>
           </div>
-        ))}
+          <div className="w-full p-4 mb-8  sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0">
+            <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px] dark:bg-violet-600">
+              <div className="space-y-2">
+                <h4 className="text-5xl font-bold mb-6">10 thiết bị</h4>
+                <span className="text-2xl font-bold ">
+                  1.500.000đ
+                  <span className="ml-1 text-sm tracking-wid dark:text-gray-900">
+                    6 tháng
+                  </span>
+                </span>
+              </div>
+              <p className="mt-3 leading-relaxed text-lg font-bold dark:text-gray-900">
+                Tính năng
+              </p>
+              <ul className="flex-1 mb-6 dark:text-gray-400 text-sm">
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Số thiết bị được gán proxy: 10</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Hỗ trợ kỹ thuật: có</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Hỗ trợ cài đặt từ xa: có</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Hỗ trợ cập nhật tính năng mới: có</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Giao thức hỗ trợ: TCP, UDP</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Công nghệ ẩn danh: DNS, WebRTC, Socks</span>
+                </li>
+              </ul>
+              <button
+                type="button"
+                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded   dark:bg-gray-900 dark:text-violet-400"
+              >
+                Mua ngay
+              </button>
+            </div>
+          </div>
+          <div className="w-full p-4 mb-8  sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0">
+            <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px] dark:bg-gray-800">
+              <div className="space-y-2">
+                <h4 className="text-5xl font-bold mb-6">50 thiết bị </h4>
+                <span className="text-2xl font-bold ">
+                  3.000.000đ
+                  <span className="ml-1 text-sm tracking-wid dark:text-violet-500">
+                    6 tháng
+                  </span>
+                </span>
+              </div>
+              <p className="mt-3 leading-relaxed text-lg font-bold dark:text-gray-400">
+                Tính năng
+              </p>
+              <ul className="flex-1 mb-6 dark:text-gray-400 text-sm">
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Số thiết bị được gán proxy: 50</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Hỗ trợ kỹ thuật: có</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Hỗ trợ cài đặt từ xa: có</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Hỗ trợ cập nhật tính năng mới: có</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Giao thức hỗ trợ: TCP, UDP</span>
+                </li>
+                <li className="flex mb-2 space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>Công nghệ ẩn danh: DNS, WebRTC, Socks</span>
+                </li>
+              </ul>
+              <button
+                type="button"
+                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded   dark:bg-violet-400 dark:text-gray-900"
+              >
+                Mua ngay
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
