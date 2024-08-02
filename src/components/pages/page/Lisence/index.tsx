@@ -15,7 +15,7 @@ export default function License() {
           <div className="w-full p-4 mb-8  sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0">
             <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px] dark:bg-gray-800">
               <div className="space-y-2">
-                <h4 className="text-5xl font-bold mb-6">5 thiết bị</h4>
+                <h4 className="text-4xl font-bold mb-6">5 thiết bị</h4>
                 <span className="text-2xl font-bold ">
                   1.500.00đ
                   <span className="ml-1 text-sm tracking-wid dark:text-violet-500">
@@ -127,17 +127,17 @@ export default function License() {
             </div>
           </div>
           <div className="w-full p-4 mb-8  sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0">
-            <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px] dark:bg-violet-600">
+            <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px] dark:bg-gray-800">
               <div className="space-y-2">
-                <h4 className="text-5xl font-bold mb-6">10 thiết bị</h4>
+                <h4 className="text-4xl font-bold mb-6">10 thiết bị </h4>
                 <span className="text-2xl font-bold ">
                   1.500.000đ
-                  <span className="ml-1 text-sm tracking-wid dark:text-gray-900">
+                  <span className="ml-1 text-sm tracking-wid dark:text-violet-500">
                     6 tháng
                   </span>
                 </span>
               </div>
-              <p className="mt-3 leading-relaxed text-lg font-bold dark:text-gray-900">
+              <p className="mt-3 leading-relaxed text-lg font-bold dark:text-gray-400">
                 Tính năng
               </p>
               <ul className="flex-1 mb-6 dark:text-gray-400 text-sm">
@@ -234,7 +234,7 @@ export default function License() {
               </ul>
               <button
                 type="button"
-                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded   dark:bg-gray-900 dark:text-violet-400"
+                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded   dark:bg-violet-400 dark:text-gray-900"
               >
                 Mua ngay
               </button>
@@ -243,7 +243,7 @@ export default function License() {
           <div className="w-full p-4 mb-8  sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0">
             <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px] dark:bg-gray-800">
               <div className="space-y-2">
-                <h4 className="text-5xl font-bold mb-6">50 thiết bị </h4>
+                <h4 className="text-4xl font-bold mb-6">50 thiết bị </h4>
                 <span className="text-2xl font-bold ">
                   3.000.000đ
                   <span className="ml-1 text-sm tracking-wid dark:text-violet-500">
@@ -355,6 +355,10 @@ export default function License() {
             </div>
           </div>
         </div>
+        <p className="text-sm sm:text-base">
+          Lưu ý: Chi phí trên chưa bao gồm chi phí phần cứng. Bạn có thể tự mua router để cài đặt phần mềm hoặc mua trực tiếp từ chúng tôi.
+          Nếu tự mua router hãy đảm bảo mua đúng loại router có hỗ trợ OpenWRT và phải được flash firmware OpenWRT
+        </p>
       </div>
     </section>
   );
