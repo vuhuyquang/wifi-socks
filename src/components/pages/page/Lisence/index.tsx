@@ -13,7 +13,7 @@ export default function License() {
         <div className="flex flex-wrap items-stretch max-w-5xl mx-auto">
           
           <div className="w-full p-4 mb-8  sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0">
-            <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px] dark:bg-gray-800">
+            <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px]">
               <div className="space-y-2">
                 <h4 className="text-4xl font-bold mb-6">5 thiết bị</h4>
                 <span className="text-2xl font-bold ">
@@ -127,7 +127,7 @@ export default function License() {
             </div>
           </div>
           <div className="w-full p-4 mb-8  sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0">
-            <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px] dark:bg-gray-800">
+            <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px]">
               <div className="space-y-2">
                 <h4 className="text-4xl font-bold mb-6">10 thiết bị </h4>
                 <span className="text-2xl font-bold ">
@@ -154,7 +154,7 @@ export default function License() {
                       clip-rule="evenodd"
                     ></path>
                   </svg>
-                  <span>Số thiết bị được gán proxy: 10</span>
+                  <span>Số thiết bị được gán proxy: 0</span>
                 </li>
                 <li className="flex mb-2 space-x-2">
                   <svg
@@ -241,7 +241,7 @@ export default function License() {
             </div>
           </div>
           <div className="w-full p-4 mb-8  sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0">
-            <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px] dark:bg-gray-800">
+            <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px]">
               <div className="space-y-2">
                 <h4 className="text-4xl font-bold mb-6">50 thiết bị </h4>
                 <span className="text-2xl font-bold ">
