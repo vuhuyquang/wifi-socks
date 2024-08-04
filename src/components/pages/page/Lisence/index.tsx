@@ -2,10 +2,10 @@ import React from "react";
 
 export default function License() {
   return (
-    <section className="py-20 dark:text-gray-100 m:py-12 lg:py-24">
+    <section className="py-20 m:py-12 lg:py-24">
       <div className="container px-4 mx-auto ">
         <div className="max-w-2xl mx-auto mb-16 text-center">
-          <span className="font-bold tracking-wider uppercase dark:text-violet-400">
+          <span className="font-bold tracking-wider uppercase">
             Bảng giá
           </span>
           <h2 className="text-4xl font-bold lg:text-5xl">Bảng giá WifiSocks</h2>
@@ -23,16 +23,16 @@ export default function License() {
                   </span>
                 </span>
               </div>
-              <p className="mt-3 leading-relaxed text-lg font-bold dark:text-gray-400">
+              <p className="mt-3 leading-relaxed text-lg font-bold">
                 Tính năng
               </p>
-              <ul className="flex-1 mb-6 dark:text-gray-400 text-sm">
+              <ul className="flex-1 mb-6">
                 <li className="flex mb-2 space-x-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -47,7 +47,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -62,7 +62,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -77,7 +77,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -92,7 +92,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -107,7 +107,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -120,7 +120,7 @@ export default function License() {
               </ul>
               <button
                 type="button"
-                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded   dark:bg-violet-400 dark:text-gray-900"
+                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#4A1414] dark:text-white"
               >
                 Mua ngay
               </button>
@@ -137,16 +137,16 @@ export default function License() {
                   </span>
                 </span>
               </div>
-              <p className="mt-3 leading-relaxed text-lg font-bold dark:text-gray-400">
+              <p className="mt-3 leading-relaxed text-lg font-bold">
                 Tính năng
               </p>
-              <ul className="flex-1 mb-6 dark:text-gray-400 text-sm">
+              <ul className="flex-1 mb-6">
                 <li className="flex mb-2 space-x-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -161,7 +161,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -176,7 +176,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -191,7 +191,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -206,7 +206,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -221,7 +221,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -234,7 +234,7 @@ export default function License() {
               </ul>
               <button
                 type="button"
-                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded   dark:bg-violet-400 dark:text-gray-900"
+                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#4A1414] dark:text-white"
               >
                 Mua ngay
               </button>
@@ -251,16 +251,16 @@ export default function License() {
                   </span>
                 </span>
               </div>
-              <p className="mt-3 leading-relaxed text-lg font-bold dark:text-gray-400">
+              <p className="mt-3 leading-relaxed text-lg font-bold">
                 Tính năng
               </p>
-              <ul className="flex-1 mb-6 dark:text-gray-400 text-sm">
+              <ul className="flex-1 mb-6">
                 <li className="flex mb-2 space-x-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -275,7 +275,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -290,7 +290,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -305,7 +305,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -320,7 +320,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -335,7 +335,7 @@ export default function License() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="flex-shrink-0 w-6 h-6 dark:text-gray-400"
+                    className="flex-shrink-0 w-6 h-6"
                   >
                     <path
                       fill-rule="evenodd"
@@ -348,7 +348,7 @@ export default function License() {
               </ul>
               <button
                 type="button"
-                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded   dark:bg-violet-400 dark:text-gray-900"
+                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#4A1414] dark:text-white"
               >
                 Mua ngay
               </button>
