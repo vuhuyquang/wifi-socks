@@ -19,11 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header></Header>
-        <main className="w-screen max-w-full">
+        <Header />
+        <main id="home" className="w-screen max-w-full">
           {children}
         </main>
-        <Footer></Footer>
+        <Footer />
       </body>
     </html>
   );

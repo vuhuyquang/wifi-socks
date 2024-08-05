@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import NavLinks from "../NavLinks";
 
 export default function Header() {
   return (
@@ -12,14 +12,10 @@ export default function Header() {
         </button>
       </div>
       <div className='p-3 bg-[#4A1414] text-white'>
-        <nav className="container mx-auto max-w-[1038px] flex justify-start gap-5">
-          <Link href="/">Trang chủ</Link>
-          <Link href="/wifi-socks">WifiSocks</Link>
-          <Link href="/prices">Bảng giá</Link>
-          <Link href="/contact">Liên hệ</Link>
-          <Link href="/faq">FAQ</Link>
-        </nav>
+        <div className="container mx-auto max-w-[1038px]">
+          <NavLinks />
+        </div>
       </div>
     </header>
   );
-};
+}
