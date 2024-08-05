@@ -1,17 +1,17 @@
+"use client";
+
 import React from "react";
+import { Link } from "react-scroll";
 
 export default function License() {
   return (
     <section className="py-20 m:py-12 lg:py-24">
       <div className="bg-[#93B5B1] py-10">
         <div className="max-w-2xl mx-auto mb-16 text-center">
-          <span className="font-bold tracking-wider uppercase">
-            Bảng giá
-          </span>
+          <span className="font-bold tracking-wider uppercase">Bảng giá</span>
           <h2 className="text-4xl font-bold lg:text-5xl">Bảng giá WifiSocks</h2>
         </div>
         <div className="flex flex-wrap items-stretch max-w-5xl mx-auto">
-          
           <div className="w-full p-4 mb-8  sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0 text-white">
             <div className="flex flex-col p-6 space-y-6 rounded shadow-xl sm:p-8 min-h-[475px] min-w-[300px]">
               <div className="space-y-2">
@@ -26,7 +26,7 @@ export default function License() {
               <p className="mt-3 leading-relaxed text-lg font-bold">
                 Tính năng
               </p>
-              <ul className="flex-1 mb-6 text-[14px]">  
+              <ul className="flex-1 mb-6 text-[14px]">
                 <li className="flex mb-2 space-x-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -193,12 +193,14 @@ export default function License() {
                   <span>Công nghệ thay đổi Wifi Mac và Lan Mac: có</span>
                 </li>
               </ul>
-              <button
-                type="button"
-                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-black text-white"
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="cursor-pointer inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-black text-white"
               >
                 Mua ngay
-              </button>
+              </Link>
             </div>
           </div>
           <div className="w-full p-4 mb-8  sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0 text-white">
@@ -382,12 +384,14 @@ export default function License() {
                   <span>Công nghệ thay đổi Wifi Mac và Lan Mac: có</span>
                 </li>
               </ul>
-              <button
-                type="button"
-                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-black text-white"
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="cursor-pointer inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-black text-white"
               >
                 Mua ngay
-              </button>
+              </Link>
             </div>
           </div>
           <div className="w-full p-4 mb-8  sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0 text-white">
@@ -571,18 +575,22 @@ export default function License() {
                   <span>Công nghệ thay đổi Wifi Mac và Lan Mac: có</span>
                 </li>
               </ul>
-              <button
-                type="button"
-                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-black text-white"
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="cursor-pointer inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-black text-white"
               >
                 Mua ngay
-              </button>
+              </Link>
             </div>
           </div>
         </div>
         <p className="text-sm sm:text-base text-white px-5">
-          Lưu ý: Chi phí trên chưa bao gồm chi phí phần cứng. Bạn có thể tự mua router để cài đặt phần mềm hoặc mua trực tiếp từ chúng tôi.
-          Nếu tự mua router hãy đảm bảo mua đúng loại router có hỗ trợ OpenWRT và phải được flash firmware OpenWRT
+          Lưu ý: Chi phí trên chưa bao gồm chi phí phần cứng. Bạn có thể tự mua
+          router để cài đặt phần mềm hoặc mua trực tiếp từ chúng tôi. Nếu tự mua
+          router hãy đảm bảo mua đúng loại router có hỗ trợ OpenWRT và phải được
+          flash firmware OpenWRT
         </p>
       </div>
     </section>
