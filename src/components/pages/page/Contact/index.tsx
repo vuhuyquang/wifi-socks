@@ -66,6 +66,7 @@ export default function Contact() {
           <div className="mt-5">Telegram: @bvquyen</div>
         </div>
       </div>
+      <span>Hoàn tiền trong trường hợp: sản phẩm không đúng mô tả và quảng cáo</span>
     </div>
   );
 }
