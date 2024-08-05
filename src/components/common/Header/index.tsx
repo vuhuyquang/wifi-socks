@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export function Header() {
+export default function Header() {
   return (
     <header>
       <div className="container mx-auto max-w-[1038px] flex justify-between items-center m-4">
