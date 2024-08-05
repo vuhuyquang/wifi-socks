@@ -2,6 +2,7 @@ import License from '@/components/pages/page/Lisence';
 import Service from '@/components/pages/page/Service';
 import Product from '@/components/pages/page/Product';
 import Contact from '@/components/pages/page/Contact';
+import FAQ from '@/components/pages/page/FAQ';
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
           <Product />
 
           <Contact />
+
+          <FAQ />
         </div>
       </div>
     </div>

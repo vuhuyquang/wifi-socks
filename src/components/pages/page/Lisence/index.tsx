@@ -120,7 +120,7 @@ export default function License() {
               </ul>
               <button
                 type="button"
-                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#4A1414] dark:text-white"
+                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#4A1414] text-white"
               >
                 Mua ngay
               </button>
@@ -234,7 +234,7 @@ export default function License() {
               </ul>
               <button
                 type="button"
-                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#4A1414] dark:text-white"
+                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#4A1414] text-white"
               >
                 Mua ngay
               </button>
@@ -348,7 +348,7 @@ export default function License() {
               </ul>
               <button
                 type="button"
-                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#4A1414] dark:text-white"
+                className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#4A1414] text-white"
               >
                 Mua ngay
               </button>
