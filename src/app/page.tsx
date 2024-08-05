@@ -1,6 +1,7 @@
 import License from '@/components/pages/page/Lisence';
-import { Service } from '@/components/pages/page/Service';
+import Service from '@/components/pages/page/Service';
 import Product from '@/components/pages/page/Product';
+import Contact from '@/components/pages/page/Contact';
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
           <License />
 
           <Product />
+
+          <Contact />
         </div>
       </div>
     </div>

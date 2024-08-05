@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export function Service() {
+export default function Service() {
   return (
     <>
       <section className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
