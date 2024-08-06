@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 export default function License() {
   return (
-    <section className="py-20 m:py-12 lg:py-24">
+    <section>
       <div className="bg-[#93B5B1] py-10">
         <div className="max-w-2xl mx-auto mb-16 text-center">
           <span className="font-bold tracking-wider uppercase">Bảng giá</span>
@@ -231,7 +231,7 @@ export default function License() {
                       clip-rule="evenodd"
                     ></path>
                   </svg>
-                  <span>Số thiết bị được gán proxy: 0</span>
+                  <span>Số thiết bị được gán proxy: 10</span>
                 </li>
                 <li className="flex mb-2 space-x-2">
                   <svg
@@ -585,11 +585,16 @@ export default function License() {
               </Link>
             </div>
           </div>
+          <p className="text-sm sm:text-base text-white px-5">
+            Lưu ý: Chi phí trên chưa bao gồm chi phí phần cứng. Bạn có thể tự
+            mua router để cài đặt phần mềm hoặc mua trực tiếp từ chúng tôi. Nếu
+            tự mua router hãy đảm bảo mua đúng loại router có hỗ trợ OpenWRT và
+            phải được flash firmware OpenWRT. Chúng tôi mới thử nghiệm trên 2
+            thiết bị là Xiaomi R3G và Xiaomi Redmi AX6000. Nếu bạn muốn cài đặt
+            trên 1 thiết bị khác, chúng tôi không chịu trách nhiệm về tính ổn
+            định.
+          </p>
         </div>
-        <p className="text-sm sm:text-base text-white px-5">
-          Lưu ý: Chi phí trên chưa bao gồm chi phí phần cứng. Bạn có thể tự mua
-          router để cài đặt phần mềm hoặc mua trực tiếp từ chúng tôi. Nếu tự mua router hãy đảm bảo mua đúng loại router có hỗ trợ OpenWRT và phải được flash firmware OpenWRT. Chúng tôi mới thử nghiệm trên 2 thiết bị là Xiaomi R3G và Xiaomi Redmi AX6000. Nếu bạn muốn cài đặt trên 1 thiết bị khác, chúng tôi không chịu trách nhiệm về tính ổn định.
-        </p>
       </div>
     </section>
   );

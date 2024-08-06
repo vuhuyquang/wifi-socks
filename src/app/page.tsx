@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="container mx-auto max-w-[1038px] text-center text-2xl sm:text-3xl md:text-4xl font-bold text-[#4A1414] mb-6 sm:mb-8">
           Phần mềm WifiSocks
         </h1>
-        <div className="space-y-6 sm:space-y-8">
+        <div className="space-y-14 sm:space-y-16">
           <section className="container mx-auto max-w-[1038px]" id="wifi-socks">
             <Service />
           </section>
