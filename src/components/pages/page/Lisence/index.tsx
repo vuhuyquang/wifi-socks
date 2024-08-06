@@ -588,9 +588,7 @@ export default function License() {
         </div>
         <p className="text-sm sm:text-base text-white px-5">
           Lưu ý: Chi phí trên chưa bao gồm chi phí phần cứng. Bạn có thể tự mua
-          router để cài đặt phần mềm hoặc mua trực tiếp từ chúng tôi. Nếu tự mua
-          router hãy đảm bảo mua đúng loại router có hỗ trợ OpenWRT và phải được
-          flash firmware OpenWRT
+          router để cài đặt phần mềm hoặc mua trực tiếp từ chúng tôi. Nếu tự mua router hãy đảm bảo mua đúng loại router có hỗ trợ OpenWRT và phải được flash firmware OpenWRT. Chúng tôi mới thử nghiệm trên 2 thiết bị là Xiaomi R3G và Xiaomi Redmi AX6000. Nếu bạn muốn cài đặt trên 1 thiết bị khác, chúng tôi không chịu trách nhiệm về tính ổn định.
         </p>
       </div>
     </section>
