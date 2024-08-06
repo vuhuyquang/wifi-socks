@@ -22,12 +22,12 @@ export default function Contact() {
         <div className="w-full lg:w-1/3 flex flex-col gap-5 items-center text-center">
           <Image
             src="https://s3-alpha-sig.figma.com/img/b7e1/9a51/ed01e567cd89e0ce8a727d28f5a7662e?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p8cJsPJacmzFKPg90DoeYHoHZgc7UyLJbWe-jQp6UrrfPidyZ8L-1yCCCnhxULf3CozBQJNM4iWlo4wc5gos~R~M4kOUNcP0rf0CAeqw7D~75fpqIy0T1cs7Nt56WuKMe6T2~vE00HuzCdSHREMztLQc7Kz8R0-9jEUJzLWW~rFGQ0ylUwM1FUSaK4XWnKCyWVuUf37n5BsocZ9jFEOzWHXl0K9~kwrfymx02wDf3LIituoYI4ZjoIBOOqcssI-y1Frw7qKmDtqHsym-2hMNodDhAq9AdHVqMfADA5NqR3Pk2B2STNcUE3qFYydI88TFnUJpfa-UKbANrcmzKjHhbQ__"
-            alt="Liên hệ bộ phậm chăm sóc khác hàng để được tư vấn nếu bạn cần thêm thong tin"
+            alt="Liên hệ bộ phận chăm sóc khác hàng để được tư vấn nếu bạn cần thêm thong tin"
             width={197}
             height={197}
           />
           <span>
-            Liên hệ bộ phậm chăm sóc khác hàng để được tư vấn nếu bạn cần thêm
+            Liên hệ bộ phận chăm sóc khách hàng để được tư vấn nếu bạn cần thêm
             thông tin
           </span>
         </div>

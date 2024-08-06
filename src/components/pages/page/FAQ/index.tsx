@@ -76,7 +76,7 @@ export default function FAQ() {
               Đối với phần mềm khi có lỗi chúng tôi sẽ sửa và cập nhật cho bạn
               phiên bản mới. Đối với thiết bị router khi chúng tôi mua hộ, nếu
               có lỗi từ nhà sản xuất chúng tôi hỗ trợ đổi mới thiết bị trong
-              thời gian 1 tháng.
+              thời gian 7 ngày. Chúng tôi từ chối bảo hành thiết bị trong các trường hợp rơi vỡ, có dấu hiệu tháo lắp và cài lại firmware.
             </li>
           </ul>
         </div>
