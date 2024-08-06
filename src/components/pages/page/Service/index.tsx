@@ -3,6 +3,7 @@ import Image from 'next/image';
 export default function Service() {
   return (
     <>
+    <div className='container px-4 mx-auto'>
       <section className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
         <div className="md:w-1/2">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-[#333] mb-4 sm:mb-6">
@@ -62,6 +63,7 @@ export default function Service() {
           />
         </div>
       </section>
+    </div>
     </>
   )
 }

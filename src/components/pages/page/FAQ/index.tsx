@@ -1,6 +1,6 @@
 export default function FAQ() {
   return (
-    <>
+    <div className="container px-4 mx-auto">
       <div className="max-w-2xl mx-auto mb-16 text-center">
         <span className="font-bold tracking-wider uppercase">FAQ</span>
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
@@ -99,6 +99,6 @@ export default function FAQ() {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 }

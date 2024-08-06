@@ -7,7 +7,7 @@ export default function License() {
   return (
     <section>
       <div className="bg-[#93B5B1] py-10">
-        <div className="max-w-2xl mx-auto mb-16 text-center">
+        <div className="max-w-2xl container px-4 mx-auto mb-16 text-center">
           <span className="font-bold tracking-wider uppercase">Bảng giá</span>
           <h2 className="text-4xl font-bold lg:text-5xl">Bảng giá WifiSocks</h2>
         </div>
@@ -585,7 +585,7 @@ export default function License() {
               </Link>
             </div>
           </div>
-          <p className="text-sm sm:text-base text-white px-5">
+          <p className="container px-4 mx-auto text-sm sm:text-base text-white">
             Lưu ý: Chi phí trên chưa bao gồm chi phí phần cứng. Bạn có thể tự
             mua router để cài đặt phần mềm hoặc mua trực tiếp từ chúng tôi. Nếu
             tự mua router hãy đảm bảo mua đúng loại router có hỗ trợ OpenWRT và
