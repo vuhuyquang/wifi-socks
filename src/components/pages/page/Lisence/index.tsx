@@ -18,7 +18,7 @@ export default function License() {
                 <h4 className="text-3xl font-bold mb-6">5 thiết bị</h4>
                 <span className="text-xl font-bold ">
                   1.800.00đ
-                  <span className="ml-1 text-sm tracking-wid dark:text-violet-500">
+                  <span className="ml-1 text-sm tracking-wid text-violet-500">
                     6 tháng
                   </span>
                 </span>
@@ -209,7 +209,7 @@ export default function License() {
                 <h4 className="text-3xl font-bold mb-6">10 thiết bị </h4>
                 <span className="text-xl font-bold ">
                   3.500.000đ
-                  <span className="ml-1 text-sm tracking-wid dark:text-violet-500">
+                  <span className="ml-1 text-sm tracking-wid text-violet-500">
                     6 tháng
                   </span>
                 </span>
@@ -400,7 +400,7 @@ export default function License() {
                 <h4 className="text-3xl font-bold mb-6">50 thiết bị </h4>
                 <span className="text-xl font-bold ">
                   5.000.000đ
-                  <span className="ml-1 text-sm tracking-wid dark:text-violet-500">
+                  <span className="ml-1 text-sm tracking-wid text-violet-500">
                     6 tháng
                   </span>
                 </span>
@@ -588,10 +588,10 @@ export default function License() {
           <div className="w-full p-1 mb-8  sm:mx-40 lg:mx-0 lg:w-1/4 lg:mb-0 text-white">
             <div className="flex flex-col p-2 space-y-6 rounded shadow-xl sm:p-4">
               <div className="space-y-2">
-                <h4 className="text-3xl font-bold mb-6">100 thiết bị </h4>
+                <h4 className="text-3xl font-bold mb-6">200 thiết bị </h4>
                 <span className="text-xl font-bold ">
-                  8.000.000đ
-                  <span className="ml-1 text-sm tracking-wid dark:text-violet-500">
+                  10.000.000đ
+                  <span className="ml-1 text-sm tracking-wid text-violet-500">
                     6 tháng
                   </span>
                 </span>
@@ -613,7 +613,7 @@ export default function License() {
                       clip-rule="evenodd"
                     ></path>
                   </svg>
-                  <span>Số thiết bị được gán proxy: 100</span>
+                  <span>Số thiết bị được gán proxy: 200</span>
                 </li>
                 <li className="flex mb-2 space-x-2">
                   <svg
