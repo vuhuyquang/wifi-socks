@@ -15,7 +15,7 @@ export default function Service() {
         </div>
         <div className="md:w-1/2">
           <Image
-            src="https://s3-alpha-sig.figma.com/img/98f0/052d/cd44b3b07333fe2f4e35ba6f698a2a86?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=khQmvcGAtkC~mslVKBgYefMpU0IMs28mIZ~j1RtPGtZLh-mcEpDYewr5Cd-sC8yqFgTfGSAV2g-uMiD80nyfLOvTqJ7NP3MHebXwwLo1MDH~~oHfNMsSTzAsTk2MGxFEJ-icWcY~AnGmkFjL7GHv-z11DPkxc-uMMQaIV6GcAIivsjBzzLYfjmDQ6nIsqqENu4HaQgqDFDfNMuJ2GXz-VV2bJL04S1wCkUGzC0-YzQgLakRxt91FbrPtx1t0GDkxVAgM0Qr3G1LGnZKsGVroYqddomD9FJS8~-p7~s6y711YqjmdURhqAJOM9RtkqS3JexiAY7MBjD1e~TrbRgSAJw__"
+            src="/images/image1.png"
             alt="WiFi Socks Image"
             width={1038}
             height={366}
@@ -35,7 +35,7 @@ export default function Service() {
         </div>
         <div className="md:w-1/2">
           <Image
-            src="https://s3-alpha-sig.figma.com/img/baf7/3c93/7c4caf09e150acf0d818af45d1fb530c?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FL0puyAhZ69FZRtiBNmHQsCOE5WklCt3Hs66Vun8qgZayhOkCon7rlFwqu-MLu9pLmA-~WKiYwFApZijbekoPdCfXpdjq-kWAl~hBnHSsyfpsMB0gTNh53D4BsJVbROKqhYlNCDx8sf4C37wk-ruJKvf5Rg1T9KDdXkFIF9gSaeMCAIhZfzmEL0VkKhERW47zqxXJsJUbe9aM~o7H-Z~XdZMDi8v-j6NsgTUeZabCxJak6gemZ3rDQ4DyGokWRq9LzjSWXqfxn3Tc3dyWu4076v4LPS6yp-7V~uYO2ysDMswR5Ys5y91aPUNRa0dIvKIR7BhGr9Spv0zAoyBrbAAFA__"
+            src="/images/image2.png"
             alt="WiFi Socks Image"
             width={1038}
             height={455}
@@ -55,7 +55,7 @@ export default function Service() {
         </div>
         <div className="md:w-1/2">
           <Image
-            src="https://s3-alpha-sig.figma.com/img/9261/f930/3399348152eaebdb795fecd87c03cb1f?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a0Y8CjZY5ZrGw5fFLZVkoGfaSL9XrZQg1bm9KGqSInfYJL8p5-eTdyfp7OHmNM6OSGSmW2mN4Wirm7vxDA9oKmZx8rsIBrBY9GOBF5~3-nOv4yVmvX-c3sQDbPYo~dBAUX9-mtgzMW8SWTnbPPgADh-qvKcfJUVAX0LON0jLUSIBOnoDWy-FZBnYBfsPPF8UZ3TVvm4MkBQpTm5-6-IW3CuFtEFvrPbVlA9JUpJWNJx6lFO1iAYkqf2gHmQ0uBqdTYE99J~PHnQHGOHfrWvIBaXqdzw4fOiyCGyVbvaxA44u8Vq2DfKs4jX5ijjHNw4aiAlzItMhNMyS622XOqnKAA__"
+            src="/images/image3.png"
             alt="WiFi Socks Image"
             width={1038}
             height={473}
